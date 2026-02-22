@@ -20,3 +20,9 @@ A responsive quiz web application that allows users to configure and take quizze
 ```bash
 npm install
 npm run dev
+
+## Current Progress (Part 4)
+- Project scaffold and folder structure completed
+- Routing and base pages are in place (Home/Quiz/Results/Review)
+- Quiz setup form skeleton added (category, difficulty, amount)
+- Next: integrate OpenTDB categories and implement quiz flow

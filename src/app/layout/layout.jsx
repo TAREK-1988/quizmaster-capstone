@@ -1,16 +1,10 @@
-import Layout from "./app/Layout/Layout.jsx";
-import AppRoutes from "./app/routes/AppRoutes.jsx";
-import { QuizProvider } from "./app/providers/QuizProvider.jsx";
+import Navbar from "../../components/Navbar.jsx";
 
-export default function App() {
+export default function Layout({ children }) {
   return (
-    <QuizProvider>
-      <Layout>
-        <AppRoutes />
-      </Layout>
-    </QuizProvider>
+    <div className="min-h-screen bg-slate-50 text-slate-900">
+      <Navbar />
+      <main className="mx-auto w-full max-w-3xl px-4 py-6">{children}</main>
+    </div>
   );
 }
-
-
-

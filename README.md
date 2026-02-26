@@ -1,6 +1,6 @@
 # QuizMaster (ALX FE Capstone)
 
-A responsive quiz web application that allows users to configure and take quizzes, then view results and review answers.
+A responsive quiz web application that allows users to configure and take quizzes, then view results and review answers. Built with React (Vite) and OpenTDB.
 
 ## Features
 - Quiz Setup: category, difficulty, number of questions
@@ -17,6 +17,7 @@ A responsive quiz web application that allows users to configure and take quizze
 - Open Trivia Database (OpenTDB)
 
 ## Getting Started
+
+### Install
 ```bash
 npm install
-npm run dev
